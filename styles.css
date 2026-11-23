@@ -1303,3 +1303,38 @@ h1 span + span {
   }
 }
 
+
+.release-full {
+  padding: clamp(20px, 4vw, 32px);
+}
+
+.release-content {
+  max-width: 78ch;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.release-content p {
+  margin: 0 0 12px;
+}
+
+.release-content h2 {
+  margin: 24px 0 8px;
+  color: var(--text);
+  font-size: 1.15rem;
+  letter-spacing: -0.02em;
+}
+
+.release-content ul {
+  margin: 0 0 10px;
+  padding-left: 20px;
+}
+
+.release-content li {
+  margin: 5px 0;
+}
+
+.release-content strong {
+  color: var(--text);
+}
