@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="glow-right" cx="0" cy="0" r="1" gradientTransform="translate(930 315) scale(340 300)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4ade80" stop-opacity="0.4"/>
+      <stop offset="0.55" stop-color="#2dd4bf" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#07120d" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-left" cx="0" cy="0" r="1" gradientTransform="translate(140 30) scale(560 420)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4ade80" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#07120d" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-bottom" cx="0" cy="0" r="1" gradientTransform="translate(520 660) scale(620 300)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a3e635" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#07120d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mark-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4ade80" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="version-text" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#86efac"/>
+      <stop offset="0.5" stop-color="#4ade80"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="#07120d"/>
+  <rect width="1200" height="630" fill="url(#glow-left)"/>
+  <rect width="1200" height="630" fill="url(#glow-right)"/>
+  <rect width="1200" height="630" fill="url(#glow-bottom)"/>
+
+  <text x="80" y="206" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="20" font-weight="700" letter-spacing="5" fill="#4ade80">ОБНОВЛЕНИЕ</text>
+
+  <text x="80" y="310" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="78" font-weight="700" letter-spacing="-2.5" fill="#e9f5ee">Новая версия</text>
+
+  <text x="80" y="440" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="112" font-weight="700" letter-spacing="-4" fill="url(#version-text)">__VERSION__</text>
+
+  <g>
+    <circle cx="930" cy="315" r="232" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
+    <circle cx="930" cy="315" r="196" fill="none" stroke="#ffffff" stroke-opacity="0.07"/>
+    <rect x="805" y="190" width="250" height="250" rx="66" fill="url(#mark-bg)" stroke="#4ade80" stroke-opacity="0.4" stroke-width="2"/>
+    <rect x="806" y="191" width="248" height="248" rx="65" fill="none" stroke="#ffffff" stroke-opacity="0.12"/>
+    <g transform="translate(805 190) scale(2.31481)">
+      <path d="M54,42 C54,42 54,36 54,36 C48,32 38,32 34,38 C28,44 28,54 36,60 L54,78 L72,60 C80,54 80,44 74,38 C70,32 60,32 54,36Z" fill="#4ade80"/>
+    </g>
+  </g>
+</svg>
