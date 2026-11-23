@@ -224,6 +224,7 @@ h1 span + span {
 .cta-row {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 10px;
   margin-top: 28px;
   scroll-margin-top: 96px;
@@ -928,6 +929,11 @@ h1 span + span {
   letter-spacing: 0.02em;
 }
 
+.release-badge.is-outdated {
+  background: rgba(255, 255, 255, 0.07);
+  color: var(--muted);
+}
+
 .release-date {
   margin-left: auto;
   color: var(--muted-2);
@@ -1022,12 +1028,16 @@ h1 span + span {
 }
 
 .release-page .notes-head {
-  max-width: 760px;
+  max-width: 860px;
 }
 
 .release-page h1 {
   max-width: none;
-  font-size: clamp(2rem, 4.4vw, 3.4rem);
+  font-size: clamp(2rem, 4.2vw, 3.3rem);
+}
+
+.cta-row .release-badge {
+  align-self: center;
 }
 
 .release-page .release {
