@@ -304,18 +304,7 @@ h1 span + span {
 }
 
 .meta-note {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.meta-note::before {
-  content: "";
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: var(--accent);
-  box-shadow: 0 0 10px var(--accent);
+  display: inline;
 }
 
 .install-note {
