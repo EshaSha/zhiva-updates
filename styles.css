@@ -145,6 +145,16 @@ button:focus-visible {
   background: var(--panel);
 }
 
+.nav .nav-support {
+  border: 1px solid var(--line);
+  background: var(--panel);
+}
+
+.nav .nav-support:hover {
+  border-color: rgba(74, 222, 128, 0.28);
+  background: var(--panel-hover);
+}
+
 .nav .nav-download {
   margin-left: 6px;
   padding: 10px 16px;
@@ -976,12 +986,20 @@ h1 span + span {
     min-height: 60px;
   }
 
-  .nav a:not(.nav-download) {
-    display: none;
+  .header-inner {
+    gap: 8px;
   }
 
+  .brand-name {
+    font-size: 13px;
+    letter-spacing: 0.1em;
+  }
+
+  .nav .nav-support,
   .nav .nav-download {
     margin-left: 0;
+    padding: 8px 10px;
+    font-size: 13px;
   }
 
   .hero {
