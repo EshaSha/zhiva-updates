@@ -2,7 +2,7 @@ const repo = "EshaSha/zhiva-updates";
 const releasesPage = `https://github.com/${repo}/releases/latest`;
 const versionNodes = document.querySelectorAll("[data-version]");
 const downloadNodes = document.querySelectorAll("[data-download]");
-const fallbackVersion = versionNodes[0]?.textContent.trim() || "0.6.370";
+const fallbackVersion = versionNodes[0]?.textContent.trim() || "0.8.378";
 
 function normalizeVersion(value) {
   return String(value || "").trim().replace(/^v/i, "");
