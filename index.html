@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ЖИВА — трекер женского самочувствия</title>
+  <meta name="description" content="ЖИВА — спокойный трекер цикла, сна, энергии, питания и тренировок. Все данные и расчёты остаются на телефоне: без облака и без ИИ.">
+  <meta name="theme-color" content="#07120d">
+  <link rel="canonical" href="https://eshasha.github.io/zhiva-updates/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ЖИВА — трекер женского самочувствия">
+  <meta property="og:description" content="Цикл, сон, энергия, питание и тренировки в одном приложении. Локально, без облака.">
+  <meta property="og:url" content="https://eshasha.github.io/zhiva-updates/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="bg" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="ЖИВА — на главную">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 108 108"><path d="M54,42 C54,42 54,36 54,36 C48,32 38,32 34,38 C28,44 28,54 36,60 L54,78 L72,60 C80,54 80,44 74,38 C70,32 60,32 54,36Z"/></svg>
+        </span>
+        <span class="brand-name">ЖИВА</span>
+      </a>
+      <nav class="nav" aria-label="Основное">
+        <a href="#features">Возможности</a>
+        <a href="#privacy">Приватность</a>
+        <a class="nav-download" href="#download">Скачать</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">Трекер женского самочувствия</p>
+        <h1>Слушай свой ритм.<span>Живи мягче.</span></h1>
+        <p class="lead">Цикл, сон, энергия, питание, симптомы и тренировки — в одном спокойном приложении. Все расчёты остаются на телефоне: без облака и без ИИ.</p>
+
+        <div class="cta-row" id="download">
+          <a class="btn btn-primary" href="https://github.com/EshaSha/zhiva-updates/releases/latest/download/zhiva.apk">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+            Скачать APK
+          </a>
+          <a class="btn btn-ghost" href="https://github.com/EshaSha/zhiva-updates/releases/latest">Все обновления</a>
+        </div>
+
+        <p class="meta">
+          <span class="pill">Android 8+ · <span data-version>0.6.370</span></span>
+          <span class="meta-note">Без аккаунта</span>
+          <span class="meta-note">Без облака</span>
+        </p>
+        <p class="install-note">Обновление ставится поверх и сохраняет твои данные.</p>
+      </div>
+
+      <div class="hero-visual">
+        <div class="phone" role="img" aria-label="Главный экран ЖИВА: день цикла, сон, шаги, вода, энергия и вес">
+          <div class="phone-screen">
+            <span class="notch" aria-hidden="true"></span>
+
+            <div class="status-bar" aria-hidden="true">
+              <span>9:41</span>
+              <span class="status-right">
+                <span class="status-net">5G</span>
+                <span class="battery"><span></span></span>
+              </span>
+            </div>
+
+            <div class="app-head">
+              <span class="app-mark" aria-hidden="true">
+                <svg viewBox="0 0 108 108"><path d="M54,42 C54,42 54,36 54,36 C48,32 38,32 34,38 C28,44 28,54 36,60 L54,78 L72,60 C80,54 80,44 74,38 C70,32 60,32 54,36Z"/></svg>
+              </span>
+              <span class="app-head-text">
+                <strong>ЖИВА</strong>
+                <span>Доброе утро! Ты уже здесь.</span>
+              </span>
+              <span class="app-gear" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.9 4.9 7 7M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1 7 17M17 7l2.1-2.1"/></svg>
+              </span>
+            </div>
+
+            <div class="cycle-card">
+              <div class="cycle-top">
+                <span>День цикла</span>
+                <span class="phase">Овуляция</span>
+              </div>
+              <div class="cycle-number">14 <small>из 28</small></div>
+              <p>Пик сил — хорошее время для важных дел.</p>
+              <div class="cycle-track" aria-hidden="true">
+                <span class="seg-1"></span>
+                <span class="seg-2"></span>
+                <span class="seg-3"></span>
+                <span class="seg-4"></span>
+              </div>
+            </div>
+
+            <div class="mini-grid">
+              <div class="mini">
+                <span class="mini-label">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 15.5A8.5 8.5 0 1 1 8.5 3.5a7 7 0 0 0 12 12Z"/></svg>
+                  Сон
+                </span>
+                <strong>7 ч 42 м</strong>
+              </div>
+              <div class="mini">
+                <span class="mini-label">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 21c-2.2 0-4-1.8-4-4 0-2.4 2-4.3 4.4-4L12 8l2.1 1.1"/><path d="M16 21c2.2 0 4-1.8 4-4 0-2.4-2-4.3-4.4-4L12 8"/><path d="M12 8V4"/></svg>
+                  Шаги
+                </span>
+                <strong>8 240</strong>
+              </div>
+              <div class="mini">
+                <span class="mini-label">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c3 3.5 5 6.2 5 9a5 5 0 0 1-10 0c0-2.8 2-5.5 5-9Z"/></svg>
+                  Вода
+                </span>
+                <strong>1,4 л</strong>
+              </div>
+              <div class="mini">
+                <span class="mini-label">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m13 2-8 12h6l-1 8 8-12h-6l1-8Z"/></svg>
+                  Энергия
+                </span>
+                <strong>4 / 5</strong>
+              </div>
+            </div>
+
+            <div class="weight-card">
+              <span class="weight-main">
+                <span class="mini-label">Вес</span>
+                <strong>59,8 кг</strong>
+              </span>
+              <span class="trend">−0,3 кг за неделю</span>
+            </div>
+
+            <div class="report-card" aria-hidden="true">
+              <div class="report-top">
+                <span>Дневной отчёт</span>
+                <span class="done">заполнен</span>
+              </div>
+              <div class="report-row"><span>Вода</span><strong>1,4 л</strong></div>
+              <div class="report-row"><span>Симптомы</span><strong>нет</strong></div>
+            </div>
+
+            <div class="quick-row" aria-hidden="true">
+              <span>+ Вода</span>
+              <span>Отчёт</span>
+              <span>Тренировка</span>
+            </div>
+
+            <div class="app-nav" aria-hidden="true">
+              <span class="active">Главная</span>
+              <span>Отчёт</span>
+              <span>Тренировки</span>
+              <span>Ещё</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features wrap" id="features" aria-labelledby="features-title">
+      <div class="section-head">
+        <p class="eyebrow">Возможности</p>
+        <h2 id="features-title">Всё важное — в одном месте.</h2>
+        <p>Без лишних экранов: отмечай день, а ЖИВА собирает картину и подсказывает, на что обратить внимание.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature">
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v6h-6"/></svg>
+          </span>
+          <h3>Цикл и прогноз</h3>
+          <p>Календарь, фазы, фертильные дни и прогноз задержки. Мягкие подсказки на каждый день.</p>
+        </article>
+
+        <article class="feature">
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M20.5 15.5A8.5 8.5 0 1 1 8.5 3.5a7 7 0 0 0 12 12Z"/></svg>
+          </span>
+          <h3>Сон и энергия</h3>
+          <p>Качество сна и энергия утром, днём и вечером. Видно, как ритм влияет на силы.</p>
+        </article>
+
+        <article class="feature">
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M6 7v10M18 7v10M3 9v6M21 9v6M6 12h12"/></svg>
+          </span>
+          <h3>Питание и тренировки</h3>
+          <p>Дневник еды, КБЖУ и лимит калорий. Упражнения, подходы, вес и абонемент.</p>
+        </article>
+
+        <article class="feature">
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M4 19V5"/><path d="M4 19h16"/><path d="m7 15 4-4 3 3 5-6"/></svg>
+          </span>
+          <h3>Вес и отчёты</h3>
+          <p>График веса, средненедельный тренд, симптомы, лекарства и напоминания.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="privacy wrap" id="privacy" aria-labelledby="privacy-title">
+      <div class="privacy-card">
+        <span class="privacy-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 3 20 6v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6Z"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg>
+        </span>
+        <div class="privacy-text">
+          <h2 id="privacy-title">Данные остаются у тебя</h2>
+          <p>Локальная база с шифрованием и резервные копии под паролем. Без аккаунта, облака и передачи данных ИИ.</p>
+          <ul class="chips">
+            <li>Локально</li>
+            <li>Шифрование</li>
+            <li>Копии под паролем</li>
+          </ul>
+        </div>
+        <a class="btn btn-primary privacy-cta" href="https://github.com/EshaSha/zhiva-updates/releases/latest/download/zhiva.apk">Скачать</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark small" aria-hidden="true">
+          <svg viewBox="0 0 108 108"><path d="M54,42 C54,42 54,36 54,36 C48,32 38,32 34,38 C28,44 28,54 36,60 L54,78 L72,60 C80,54 80,44 74,38 C70,32 60,32 54,36Z"/></svg>
+        </span>
+        <span class="footer-brand-text">
+          <strong>ЖИВА</strong>
+          <small>Живу И Ведаю Активность</small>
+        </span>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/EshaSha/zhiva-updates">GitHub</a>
+        <a href="https://github.com/EshaSha/zhiva-updates/releases">Обновления</a>
+        <a href="https://github.com/EshaSha/zhiva-updates/releases/latest/download/zhiva.apk">APK</a>
+      </div>
+      <p class="copyright">© 2026 ЖИВА</p>
+    </div>
+  </footer>
+</body>
+</html>
