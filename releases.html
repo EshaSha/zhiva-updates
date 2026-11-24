@@ -8,18 +8,18 @@
   <meta name="theme-color" content="#07120d">
   <link rel="canonical" href="https://eshasha.github.io/zhiva-updates/releases.html">
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Новая версия ЖИВА 0.9.384">
+  <meta property="og:title" content="Новая версия ЖИВА 0.9.411">
   <meta property="og:description" content="Что нового в обновлении: улучшения, исправления и важные детали. APK можно скачать прямо со страницы.">
   <meta property="og:url" content="https://eshasha.github.io/zhiva-updates/releases.html">
   <meta property="og:image" content="https://eshasha.github.io/zhiva-updates/releases-og.png">
   <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="ЖИВА — новая версия 0.9.384">
+  <meta property="og:image:alt" content="ЖИВА — новая версия 0.9.411">
   <meta property="og:locale" content="ru_RU">
   <meta property="og:site_name" content="ЖИВА">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Новая версия ЖИВА 0.9.384">
+  <meta name="twitter:title" content="Новая версия ЖИВА 0.9.411">
   <meta name="twitter:description" content="Что нового в обновлении: улучшения, исправления и важные детали.">
   <meta name="twitter:image" content="https://eshasha.github.io/zhiva-updates/releases-og.png">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -66,10 +66,36 @@
       </div>
 
       <div class="notes-list">
-        <article class="release is-latest" aria-labelledby="v0-9-384">
+        <article class="release is-latest" aria-labelledby="v0-9-411">
+          <div class="release-top">
+            <h2 class="release-version" id="v0-9-411">0.9.411</h2>
+            <span class="release-badge">актуальная</span>
+            <time class="release-date" datetime="2026-11-24T16:20">24 ноября 2026</time>
+          </div>
+          <p class="release-summary">Большое обновление: переработан онбординг, обновлены виджеты главного экрана, расчёт цикла, настройки, резервные копии и безопасность.</p>
+          <ul class="release-list">
+            <li>Переработан онбординг — после ручного тестирования решила переделать его полностью.</li>
+            <li>Изменено отображение виджетов «Тренировки» и «Цикл» на главном экране приложения.</li>
+            <li>Скорректирован расчёт предполагаемой длительности менструации: теперь учитывается статистика за последние 365 дней, как и общая длина цикла.</li>
+            <li>Внесены небольшие правки в настройки: изменено расположение вкладок «Профиль» и «Системные», добавлены доработки предзаполнения полей по умолчанию.</li>
+            <li>Добавлено действие «Удалить все данные» с подтверждением: удаляет базу, профиль, настройки, журналы, кэш, резервные копии и пароль копий.</li>
+            <li>В «О приложении» добавлены политика конфиденциальности и медицинский дисклеймер.</li>
+            <li>Теперь хранятся 2 последние резервные копии вместо одной.</li>
+            <li>Восстановление копии с устройства теперь всегда спрашивает пароль. <strong>Никогда не забывайте пароль от резервного копирования</strong> — в этом случае восстановить данные невозможно.</li>
+            <li>В уведомлении о лекарстве на экране блокировки скрыто название препарата, показывается нейтральный текст.</li>
+            <li>Кнопка «Принял» не срабатывает с заблокированного экрана.</li>
+            <li>И немного фиксов шифрования, безопасности, обновления и прочая разработческая мишура.</li>
+            <li>Добавлена политика конфиденциальности в приложение. Вы соглашаетесь с ней, если используете приложение.</li>
+          </ul>
+          <a class="release-permalink" href="releases/0.9.411.html">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1.5 1.5"/><path d="M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1.5-1.5"/></svg>
+            Ссылка на версию 0.9.411
+          </a>
+        </article>
+        <article class="release" aria-labelledby="v0-9-384">
           <div class="release-top">
             <h2 class="release-version" id="v0-9-384">0.9.384</h2>
-            <span class="release-badge">актуальная</span>
+            <span class="release-badge">предыдущая</span>
             <time class="release-date" datetime="2026-11-23T22:00">23 ноября 2026</time>
           </div>
           <p class="release-summary">Сегодня много изменений: новый дизайн, перетаскиваемые виджеты, немного новых фишек, связанных с Health Connect и защитой приложения, а также реализована возможность обратной связи.</p>
